@@ -2,16 +2,27 @@ body{
     margin: 0;
     padding: 0;
 }
-.box{
-   
+.base{
+    padding: 25px;
+    text-align: center;
+    border: 1px solid #ccc
+    
 }
-
-.base p{
-
-    line-break: 50px;
+input{
+    height: 32px;
+    width: 32px;
+    background-color: pink;
+    border: 1px solid #ffc0cb;
+}
+input span .check{
+    height: 32px;
+    width: 32px;
 
 }
-
+.app{
+    font-weight: bold;
+    font-size: 22px;
+}
 
 img{
     width: 100%;
