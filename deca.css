@@ -2,13 +2,30 @@ body{
     margin: 0;
     padding: 0;
 }
+.box{
+   
+}
+
+.base p{
+
+    line-break: 50px;
+
+}
+
 
 img{
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    
 }
-ul li{
-    list-style-type: circle;
-    width: 100px;
-    list-style-position: outside;
+
+a{
+    text-decoration: none;
+    padding: 8px 25px;
+}
+.next{
+    background: #fbc3cc;
+    border-radius:27% ;
+}
+.mail{
+    border-radius: 10%;
 }
