@@ -1,42 +1,21 @@
 body{
-    margin: 0; 
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
 }
-.base{
-    padding: 25px;
-    text-align: center;
-    border: 1px solid #ccc
-    
-}
-input{
-    height: 32px;
-    width: 32px;
-    background-color: pink;
-    border: 1px solid #ffc0cb;
-}
-input span .check{
-    height: 32px;
-    width: 32px;
-
-}
-.app{
-    font-weight: bold;
-    font-size: 22px;
-}
-
 img{
     width: 100%;
-    
+    height: 100%;
+}
+.para{
+    margin: 25px 96px 56px 95px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 0.8fr;
+}
+.base{
+    line-height: 0;
+    padding: 25px;
+
 }
 
-a{
-    text-decoration: none;
-    padding: 8px 25px;
-}
-.next{
-    background: #fbc3cc;
-    border-radius:27% ;
-}
-.mail{
-    border-radius: 10%;
-}
