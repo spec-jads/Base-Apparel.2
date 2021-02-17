@@ -21,11 +21,22 @@ img{
 
 /* media queries */
 @media screen and (min-width:320px){
-  
+  .mom {
+      display: none;
+  }
    
 }
 @media screen and (min-width:620px){
-
+ .mom{
+     display: grid;
+ }
+ img{
+     width: 100%;
+     height: 100%;
+ }
+ .flow{
+     display: none;
+ }
 }
 @media screen and (min-width:920px){
 
