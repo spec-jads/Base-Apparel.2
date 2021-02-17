@@ -1,7 +1,7 @@
 body{
     margin: 0%;
     padding: 0%;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 img{
     width: 100%;
@@ -13,26 +13,30 @@ img{
 .grid{
     display: grid;
     grid-template-columns: 1fr 0.8fr;
-    background: #f8eaea;
+    background: #ffecf4;
 }
 .base{
     line-height: 0;
     padding: 25px;
     position: relative;
     font-weight: bold;
-    word-spacing: 2px;
+    
+}
+.base p{
+    letter-spacing: 5px;
 }
 
-.logo{
-    height: 25px;
-    width: 25px;
+.circle {
+    height: 20px;
+    width: 20px;
     position: absolute;
-    bottom: 40px;
-    left: -2px;
-    border: 1px solid #ebbdbd;
+    bottom: 35px;
+    left: -6px;
+    border: 2px solid #af7d86;
     border-radius: 50%;
     padding: 2px;
-    background: #f1f1f1;
+    box-shadow: 2px 3px  ;
+    
     
 }
 
