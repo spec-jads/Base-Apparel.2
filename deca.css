@@ -9,6 +9,7 @@ img{
 }
 .para{
     margin: 25px 96px 56px 95px;
+    
 } 
 .grid{
     display: grid;
@@ -20,6 +21,8 @@ img{
     padding: 25px;
     position: relative;
     font-weight: bold;
+    font-size: 1rem;
+    color: #555;
     
 }
 .base p{
@@ -36,8 +39,15 @@ img{
     border-radius: 50%;
     padding: 2px;
     
-    
-    
+     
+}
+.line{
+    font-size: 44px;
+    line-height: 8px;
+    letter-spacing: 12px;
+}
+.second {
+    letter-spacing: 14px;
 }
 
 
@@ -56,13 +66,20 @@ img{
 
 /* media queries */
 @media screen and (min-width:320px){
+    body{
+        font-size: 14px;
+    }
   .mom {
       display: none;
   }
+  
    
 }
 @media screen and (min-width:620px){
- .mom{
+  body{
+      font-size: 17px;
+  }
+    .mom{
      display: grid;
  }
  img{
@@ -74,5 +91,8 @@ img{
  }
 }
 @media screen and (min-width:920px){
+   body{
+       font-size: 19px;
+   }
 
 }
