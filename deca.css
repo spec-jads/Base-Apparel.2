@@ -14,7 +14,7 @@ body{
 .grid{
     display: grid;
     grid-template-columns: 1fr 0.8fr;
-    background: #ffecf4;
+    background: white;
 }
 .base{
     line-height: 0;
@@ -22,17 +22,17 @@ body{
     position: relative;
     font-size: 0.8rem;
     color: #555;
-    
+    font-weight: bolder;
 }
 .base p{
     letter-spacing: 5px;
 }
 
 .circle {
-    height: 17px;
-    width: 17px;
+    height: 15px;
+    width: 15px;
     position: absolute;
-    bottom: 29px;
+    bottom: 30px;
     left: -6px;
     border: 2px solid #af7d86;
     border-radius: 50%;
@@ -42,13 +42,14 @@ body{
 }
 .line{
     font-size: 38px;
-    line-height: 8px;
-    letter-spacing: 12px;
+    line-height: 6px;
 }
 .first{
     color: #f8c5ce;
     font-weight: lighter;
     position: relative;
+    letter-spacing: 12px;
+
 }
 .first span{
     font-size: 10px;
@@ -59,13 +60,17 @@ body{
      
 }
 .second {
-    letter-spacing: 10px;
+    letter-spacing: 6px;
+}
+.third{
+    letter-spacing: 8px;
 }
 .hello{
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     word-spacing: 3px;
+    color:#f8c5ce ;
 }
-
+   
 
 
 
