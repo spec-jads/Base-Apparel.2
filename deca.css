@@ -68,8 +68,37 @@ body{
 .hello{
     font-size: 0.8rem;
     word-spacing: 3px;
-    color:#f8c5ce ;
+    color:#ce959f ;
 }
+.fill{
+    position: relative;
+}
+.mail{
+    padding: 10px;
+    width: 85%;
+    border: 1px solid #f8c5ce;
+    border-radius: 20px;
+    position: absolute;
+    top: 12px;
+}
+::placeholder{
+    color: #ce959f;
+}
+button{
+    display: inline;
+    width: 10%;
+    padding: 8px;
+    text-align: center;
+    background: pink;
+    border-radius: 12px;
+    color: white;
+}
+.logo{
+    width: 10px;
+    height: 10px;
+    
+}
+
    
 
 
