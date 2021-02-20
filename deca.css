@@ -86,12 +86,19 @@ body{
 }
 button{
     display: inline;
-    width: 10%;
-    padding: 8px;
+    width: 20%;
+    padding: 0px;
     text-align: center;
     background: pink;
-    border-radius: 12px;
+    border-radius: 18px;
     color: white;
+    position: absolute;
+    top: 13px;
+    right: 25px;
+    border: 1px solid #ce959f;
+}
+.next{
+    font-size: 29px;
 }
 .logo{
     width: 10px;
