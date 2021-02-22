@@ -14,7 +14,7 @@ body{
 .grid{
     display: grid;
     grid-template-columns: 1fr 0.8fr;
-    background: white;
+    background: #ffffff;
 }
 .base{
     line-height: 0;
@@ -152,4 +152,5 @@ button{
      top: 13px;
      right: 1px;
     }
+    
 }
