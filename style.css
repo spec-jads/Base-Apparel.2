@@ -1,156 +1,189 @@
-body{
-    margin: 0%;
-    padding: 0%;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif    
+*{
+    margin: 0;
 }
- img{
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.circle{
+    width: 21px;
+    border: 2px solid #f56c83;
+    border-radius: 50%;
+    position: absolute;
+    top: 24px;
+}
+.photo img{
     width: 100%;
-    height: 100%;
-} 
-.para{
-    margin: 25px 96px 56px 95px;
-    
-} 
-.grid{
-    display: grid;
-    grid-template-columns: 1fr 0.8fr;
-    background: #ffffff;
+    height: 100% ;
+}
+.girl{
+    display: none;
+}
+.flex{
+    /* background-color: rgb(246, 186, 186); */
+    display: flex;
+    width: 100%;
+    height: 496px;
+
+}
+.fater{
+    background-color: #fb8a96;
+    /* padding-left: 80px;
+    padding-right: 80px; */
 }
 .base{
-    line-height: 0;
-    padding: 25px;
-    position: relative;
-    font-size: 0.8rem;
-    color: #555;
-    font-weight: bolder;
+    padding-top: 25px;
+    padding-left: 80px;
 }
 .base p{
-    letter-spacing: 5px;
+    padding-left: 29px;
+    font-size: 0.8rem;
+    font-weight: bold;      
+    line-height: 12px;
+    letter-spacing: 4px;
 }
-
-.circle {
-    height: 15px;
-    width: 15px;
-    position: absolute;
-    bottom: 30px;
-    left: -6px;
-    border: 2px solid #af7d86;
-    border-radius: 50%;
-    padding: 2px;  
-     
+.we{
+    padding-top: 65px;
+    padding-left: 80px;
 }
 .line{
-    font-size: 38px;
-    line-height: 6px;
-    
+    font-size: 2rem;
+   
+    line-height: 35px;
+    letter-spacing: 16px;
 }
 .first{
-    color: #f8c5ce;
+    color: #127275;
     font-weight: lighter;
     position: relative;
-    letter-spacing: 12px;
+    letter-spacing: 17px;
 
 }
 .first span{
-    font-size: 10px;
+    font-size: 12px;
     position: absolute;
     bottom: 8px;
     left: 70px;
-    color: #b96c7b;
-     
-}
-.second {
-    letter-spacing: 6px;
-}
-.third{
-    letter-spacing: 8px;
+    
 }
 .hello{
-    font-size: 0.8rem;
-    word-spacing: 3px;
-    color:#ce959f ;
+    padding: 20px 80px;
+    font-size: 0.7rem;
+    color: #127275;
 }
 .fill{
+    padding: 20px 80px;
     position: relative;
 }
-.mail{
-    padding: 10px;
-    width: 85%;
-    border: 1px solid #f8c5ce;
-    border-radius: 20px;
-    position: absolute;
-    top: 12px;
+input{
+    border: 1px solid #c5c5c5;
+    border-radius: 16px;
+    padding: 9px;
+    width: 80%;
+    box-shadow: 1px 1px 1px rgb(245, 171, 171) ;
+    
 }
 ::placeholder{
-    color: #ce959f;
+    color: #e29ca8;
+    
 }
 button{
     display: inline;
-    width: 20%;
-    padding: 0px;
-    text-align: center;
-    background: pink;
-    border-radius: 18px;
-    color: white;
+    /* padding: 9px 29px; */
+    width: 15%;
+    border: 1px solid rgb(251, 225, 225);
+    border-radius: 16px;
     position: absolute;
-    top: 13px;
-    right: 25px;
-    border: 1px solid #ce959f;
+    top: 21px;
+    right: 105px;
+    background-color: #ffa8b1;
+    box-shadow: 1px 1px 5px rgb(248, 222, 222);
     cursor: pointer;
 }
-.next{
-    font-size: 29px;
-}
-
-
-
-/* media queries */
-@media screen and (min-width:320px){
-    body{
-        font-size: 14px;
-    }
-  .mom {
-      display: none;
-  }
+button span{
+  font-size: 1.6rem;
+  color: #fff;
+ 
    
 }
-@media screen and (min-width:720px){
-  body{
-      font-size: 16px;
-  }
-    .mom{
-     display: grid;
- }
- img{
-     width: 100%;
-     height: 100%;
- }
- .flow{
-     display: none;
- }
- button{
-     position: absolute;
-    top: 13px;
-    right: 5px;
- }
-}
-@media screen and (min-width:920px){
-   body{
-       font-size: 18px;
-   }
 
-}
-@media screen and (max-width:320px){
-    .line{
-        text-align: center;
-    }
-    .hello{
-        text-align: center;
-    }
-    button{
-     position: absolute;
-     top: 13px;
-     right: 1px;
-    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+/* @media screen and (max-width:320px){
     
+    .mom{
+        display: none;
+    }
+  .girl{
+      display: block;
+  }
+  .base{
+    background-color: #f56c83;
+    padding: 25px;
+}
+
+  } */
+  @media screen and (max-width:480px){
+     
+    .fater{
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .mom{
+          display: none;
+      }
+      .girl{
+        display: block;
+    }
+    .base{
+        background-color: #f56c83;
+        padding: 25px;
+    }
+    .shoppers{
+        height: 100% auto;
+        background-color: #f56c83;
+        
+    }
+    .we{ 
+        padding:40px 50px 23px 50px ;
+        text-align: center;
+  }
+  .first span{
+      right: 60px;
+  }
+  .hello{
+      padding: 0px 50px 0px 50px;
+      text-align: center;
+  }
+  .fill{
+      padding: 20px 55px;
+  }
+  button{
+      top: 20px;
+    right: 55px;
+  }
+  @media screen and (min-width:520px){
+        body{
+            font-size: 20px;
+        }
+       
 }
