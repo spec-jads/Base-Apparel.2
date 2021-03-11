@@ -6,7 +6,7 @@ body{
 }
 .circle{
     width: 21px;
-    border: 2px solid #f56c83;
+    border: 2px solid #575656;
     border-radius: 50%;
     position: absolute;
     top: 24px;
@@ -22,11 +22,11 @@ body{
     /* background-color: rgb(246, 186, 186); */
     display: flex;
     width: 100%;
-    height: 496px;
-
+    height: 696px;
+    
 }
 .fater{
-    background-color: #fb8a96;
+    background-color: #f56c83;
     /* padding-left: 80px;
     padding-right: 80px; */
 }
@@ -42,13 +42,12 @@ body{
     letter-spacing: 4px;
 }
 .we{
-    padding-top: 65px;
-    padding-left: 80px;
+    padding: 140px 80px 25px 80px;
 }
 .line{
-    font-size: 2rem;
+    font-size: 3rem;
    
-    line-height: 35px;
+    line-height: 45px;
     letter-spacing: 16px;
 }
 .first{
@@ -61,8 +60,8 @@ body{
 .first span{
     font-size: 12px;
     position: absolute;
-    bottom: 8px;
-    left: 70px;
+    bottom: 15px;
+    left: 92px;
     
 }
 .hello{
@@ -89,7 +88,7 @@ input{
 button{
     display: inline;
     /* padding: 9px 29px; */
-    width: 15%;
+    width: 12%;
     border: 1px solid rgb(251, 225, 225);
     border-radius: 16px;
     position: absolute;
@@ -111,21 +110,6 @@ button span{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
 
 /* @media screen and (max-width:320px){
     
@@ -179,7 +163,7 @@ button span{
   }
   button{
       top: 20px;
-    right: 55px;
+    right: 75px;
   }
   @media screen and (min-width:520px){
         body{
